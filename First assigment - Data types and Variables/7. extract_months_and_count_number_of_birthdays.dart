@@ -45,7 +45,7 @@ void main() {
     i = i + 2;
   }
 
-  //Get highest month
+  //Get highest and lowest month
   int highest = 0;
   int highest_day = 32;
   int lowest = 12;
@@ -101,6 +101,7 @@ void main() {
     }
   });
 
+  // Print the highest and lowest birthdays
   print("The highest birthday is $highest_month");
   print("The lowest birthday is $lowest_month");
 }
